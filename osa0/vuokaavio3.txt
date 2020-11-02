@@ -1,0 +1,10 @@
+note over selain:
+selain alkaa suorittaa js-koodia ja rekisteröi tapahtumankäsittelijän hoitamaan tilanteen
+
+end note
+
+
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa [{ content: content-type: application/json; charset=utf-8}]
+palvelin-->selain: Palvelin vastaa statuskoodilla 201, selain pysyy samalla sivulla
+
+
